@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Data and generated artifacts (regenerate with the scripts)
+data/
+models/
+reports/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
