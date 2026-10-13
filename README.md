@@ -56,6 +56,16 @@ pytest
 
 CPU is enough. A GPU just makes embedding faster.
 
+## OpenRouter API key
+
+For `model_connect.py`, add your key to the root `.env` file:
+
+```dotenv
+OPENROUTER_API_KEY=your_openrouter_api_key
+```
+
+Keep `.env` local; it is ignored by git.
+
 ## Data
 
 Place images in `data/raw/`, one folder per source. The folder name is the **generator**, and `real` is reserved for real photographs:
